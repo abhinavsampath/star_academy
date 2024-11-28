@@ -3,16 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Star Academy</title>
+    <title>Badminton Academy</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <!-- Header Section -->
     <header class="header">
         <div class="logo">
-            <img src="logo.png" alt="Star Badminton Academy Logo">
+            <img src="logo.png" alt="Badminton Academy Logo">
         </div>
-        <nav class="navbar">
+        <!-- Hamburger Menu -->
+        <div class="menu-toggle" id="menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <!-- Navbar Links -->
+        <nav class="navbar" id="navbar">
             <a href="#purpose">Purpose</a>
             <a href="#coaches">Coaches</a>
             <a href="#players">Players</a>
@@ -21,11 +28,10 @@
             <a href="#testimonials">Testimonials</a>
             <a href="#branches">Branches</a>
             <a href="#contact">Contact</a>
-            <a href=""></a>
         </nav>
     </header>
 
-    <!-- Purpose Section -->
+    <!-- Page Sections -->
     <section id="purpose" class="section">
         <h1>Our Purpose</h1>
         <p>
@@ -33,7 +39,6 @@
             Our academy is committed to developing players who excel on and off the court.
         </p>
     </section>
-
     <!-- Coaches Section -->
     <section id="coaches" class="section">
         <h1>Our Coaches</h1>
@@ -118,5 +123,7 @@
     <footer class="footer">
         <p>© 2024 Badminton Academy. All rights reserved.</p>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
